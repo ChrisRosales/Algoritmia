@@ -1,0 +1,6 @@
+*.zip
+build/
+dist/
+nbproject/
+*.inc
+Makefile

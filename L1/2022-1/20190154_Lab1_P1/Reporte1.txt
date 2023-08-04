@@ -1,0 +1,7 @@
+El máximo ingreso por ventas es de 119200.00 dolares con una inversion total en publicidad de 48000.00 dolares.
+
+Los canales de publicidad que se deben de elegir para obtener el máximo ingreso total son:
+- Canal 2 - YOUTUBE, ingreso = 39200.00 dolares con una inversion publicitaria de 14000.00 dolares.
+- Canal 4 - EMAIL, ingreso = 22500.00 dolares con una inversion publicitaria de 9000.00 dolares.
+- Canal 6 - FB, ingreso = 20000.00 dolares con una inversion publicitaria de 10000.00 dolares.
+- Canal 8 - GOOGLE_ADS, ingreso = 37500.00 dolares con una inversion publicitaria de 15000.00 dolares.

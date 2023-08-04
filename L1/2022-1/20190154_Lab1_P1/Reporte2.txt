@@ -1,0 +1,6 @@
+El nivel máximo de recordación de marca es de 5300 con una inversion total en publicidad de 50000.00 dólares y un ingreso de 101900.00 dólares.
+
+Los canales de publicidad que se deben de elegir para obtener el máximo nivel de recordación de marca son: 
+- Canal 2 - YOUTUBE, ingreso = 39200.00 dolares con una inversion publicitaria de 14000.00 dolares.
+- Canal 7 - ANUNCIOS, ingreso = 25200.00 dolares con una inversion publicitaria de 21000.00 dolares.
+- Canal 8 - GOOGLE_ADS, ingreso = 37500.00 dolares con una inversion publicitaria de 15000.00 dolares.

@@ -1,0 +1,56 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `/c/Users/chris/OneDrive/Escritorio/Algortimia/Estructuras de Datos/20202692_Lab4_P2'
+if [ ! -f nbproject/Makefile-Debug.mk ]; \
+	then \
+	    echo ""; \
+	    echo "Error: can not find the makefile for configuration 'Debug' in project 20202692_Lab4_P2"; \
+	    echo "See 'make help' for details."; \
+	    echo "Current directory: " `pwd`; \
+	    echo ""; \
+	fi
+ 
+if [ ! -f nbproject/Makefile-Debug.mk ]; \
+	then \
+	    exit 1; \
+	fi
+echo "# This code depends on make tool being used" >.dep.inc
+if [ -n "3.81" ]; then \
+	    echo "DEPFILES=\$(wildcard \$(addsuffix .d, \${OBJECTFILES} \${TESTOBJECTFILES}))" >>.dep.inc; \
+	    echo "ifneq (\${DEPFILES},)" >>.dep.inc; \
+	    echo "include \${DEPFILES}" >>.dep.inc; \
+	    echo "endif" >>.dep.inc; \
+	else \
+	    echo ".KEEP_STATE:" >>.dep.inc; \
+	    echo ".KEEP_STATE_FILE:.make.state.\${CONF}" >>.dep.inc; \
+	fi
+#echo "=> Running .build-impl... Configuration=Debug"
+"make.exe" -f nbproject/Makefile-Debug.mk QMAKE= SUBPROJECTS= .build-conf
+ 
+make.exe[1]: Entering directory `/c/Users/chris/OneDrive/Escritorio/Algortimia/Estructuras de Datos/20202692_Lab4_P2'
+ 
+nbproject/Makefile-Debug.mk:95: .dep.inc: No such file or directory
+
+"make.exe"  -f nbproject/Makefile-Debug.mk dist/Debug/MinGW-Windows/20202692_lab4_p2.exe
+ 
+make.exe[2]: Entering directory `/c/Users/chris/OneDrive/Escritorio/Algortimia/Estructuras de Datos/20202692_Lab4_P2'
+ 
+mkdir -p build/Debug/MinGW-Windows
+rm -f "build/Debug/MinGW-Windows/ab.o.d"
+gcc    -c -g -MMD -MP -MF "build/Debug/MinGW-Windows/ab.o.d" -o build/Debug/MinGW-Windows/ab.o ab.c
+ 
+mkdir -p build/Debug/MinGW-Windows
+rm -f "build/Debug/MinGW-Windows/abb.o.d"
+gcc    -c -g -MMD -MP -MF "build/Debug/MinGW-Windows/abb.o.d" -o build/Debug/MinGW-Windows/abb.o abb.c
+ 
+mkdir -p build/Debug/MinGW-Windows
+rm -f "build/Debug/MinGW-Windows/main.o.d"
+gcc    -c -g -MMD -MP -MF "build/Debug/MinGW-Windows/main.o.d" -o build/Debug/MinGW-Windows/main.o main.c
+ 
+mkdir -p dist/Debug/MinGW-Windows
+gcc     -o dist/Debug/MinGW-Windows/20202692_lab4_p2 build/Debug/MinGW-Windows/ab.o build/Debug/MinGW-Windows/abb.o build/Debug/MinGW-Windows/main.o 
+make.exe[2]: Leaving directory `/c/Users/chris/OneDrive/Escritorio/Algortimia/Estructuras de Datos/20202692_Lab4_P2'
+ 
+make.exe[1]: Leaving directory `/c/Users/chris/OneDrive/Escritorio/Algortimia/Estructuras de Datos/20202692_Lab4_P2'
+ 
+make.exe: Leaving directory `/c/Users/chris/OneDrive/Escritorio/Algortimia/Estructuras de Datos/20202692_Lab4_P2'
+ 
