@@ -94,7 +94,7 @@ double desencolarPrioridad(Cola*pedido,double presupuesto){
                     presuParcial=0;
                     datos.cant-=(int)resto;
                     encolar(pedido,datos);
-                    cout<<"gaga es gay"<<endl;
+                    
                 }
                 else{
                     presuParcial-=total;
