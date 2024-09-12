@@ -1,7 +1,7 @@
 # Algoritmia
 Soluciones de evaluaciones de Algoritmia. 
 
-Repositorio de evaluaciones desarrolladas sobre el curso de Algoritmia, en caso existan errores o formas de mejoras, porfavor deje su pull request :smile:
+Repositorio de evaluaciones desarrolladas sobre el curso de Algoritmia, en caso existan errores o formas de mejoras, porfavor deje su pull request 🤠
 
 Consideraciones:
 
